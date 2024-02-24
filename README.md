@@ -1,8 +1,8 @@
-# Salesforce DX Project: Next Steps
+# Opportunity - Potential Value Sets Amount Flow 
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## Use Case : User wants to update the “Potential Value”  custom field value from the Lead object on the Opportunity object after the lead is converted in the Salesforce Sales Cloud. 
 
-## How Do You Plan to Deploy Your Changes?
+![image](https://github.com/Mtalvadi/potentialvalueflow/assets/83495051/6d6851b6-e8a8-4108-a711-7434e543b0c6)
 
 Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
 
