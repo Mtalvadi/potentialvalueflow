@@ -4,15 +4,30 @@
 
 ![image](https://github.com/Mtalvadi/potentialvalueflow/assets/83495051/6d6851b6-e8a8-4108-a711-7434e543b0c6)
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## Constraint : While conversion configuration, there is no option to directly map Potential Value field to the Opportunity “Amount” field. 
 
-## Configure Your Salesforce DX Project
+![image](https://github.com/Mtalvadi/potentialvalueflow/assets/83495051/f5568b6c-c0bc-4fe7-bdbc-2c5ce1d7a95f)
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## Pre-requisite :
 
-## Read All About It
+-	Custom field named - “Potential Value” of currency data type is created on Lead & Opportunity object.
+-	These two fields are mapped under Lead object configuration.
+-	Record triggered type (Opportunity - Potential Value Sets Amount) flow is configured and activated.
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+
+## Solution/Automation : 
+
+1. Create a new lead record and enter the values for required field along with Potential Value field. 
+
+![image](https://github.com/Mtalvadi/potentialvalueflow/assets/83495051/f9c81d79-6d2c-4ee6-a584-baad355aa365)
+
+2. Click on “Convert” button on top right-hand side and convert it to create a new opportunity record.
+
+![image](https://github.com/Mtalvadi/potentialvalueflow/assets/83495051/d21998d7-90d3-4189-8c33-96807e7161c1)
+
+3. Once converted, go to the Opportunity record and check the Amount field value. It would be the exactly same as Potential Value field (Potential Value field can be hidden or removed from the Opportunity page layout later as below is just for demonstration purpose).
+
+![image](https://github.com/Mtalvadi/potentialvalueflow/assets/83495051/0b3a5961-a381-4428-ae02-5ea4a9704010)
+
+
+
