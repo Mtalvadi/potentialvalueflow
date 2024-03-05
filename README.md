@@ -25,7 +25,9 @@
 
 ![image](https://github.com/Mtalvadi/potentialvalueflow/assets/83495051/d21998d7-90d3-4189-8c33-96807e7161c1)
 
-3. Once converted, go to the Opportunity record and check the Amount field value. It would be the exactly same as Potential Value field (Potential Value field can be hidden or removed from the Opportunity page layout later as below is just for demonstration purpose).
+3. Once converted, go to the Opportunity record and check the Amount field value. It would be the exactly same as Potential Value field.
+
+Note: Potential Value field can be hidden or removed from the Opportunity page layout later as below is just for demonstration purpose.
 
 ![image](https://github.com/Mtalvadi/potentialvalueflow/assets/83495051/0b3a5961-a381-4428-ae02-5ea4a9704010)
 
